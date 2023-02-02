@@ -147,7 +147,7 @@ def menu():
   print("              『2』│ ᗴ᙭ᑭᒪOIT")
   print("              『3』│ ᗪᗪOՏ") 
   print("              『4』│ OՏIᑎT")
-  print("              『5』│ Update Tools")
+  print("              『5』│ ᑌᑭᘜᖇᗩᗪᗴ ᒪᗩᑌᑎᑕᕼᗴᖇ")
   print("             ┗══════════════════════════════════════════════════════════════════┛")
 
 #BANNER DDOS
@@ -350,7 +350,7 @@ def scelta1():
 
   if choose == str(5):
       print("[*]-[Info]-[*]: Aggiornamento del tools in corso...")
-      call(["sh", "-c", "cd .. && cp /ToxicSecTools/update.py /update.py && python3 update.py"])
+      call(["sh", "-c", "cd .. && python3 update.py"])
       subprocess.run(["clear"])
       print("[*]-[Info]-[*]: Sovraiscrizione dei dati in corso...")
       time.sleep(0.5)
